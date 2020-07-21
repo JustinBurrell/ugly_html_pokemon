@@ -1,16 +1,51 @@
 body{
-    font-family: 'Courier New';
-    color: white;
     background-color: black;
-    
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    padding-left: 30px;
+    display: block;
+    margin: 8px;
 }
 
 h1{
+    background-color: #2d539a;
     text-align: center;
-    background-color:rgb(46, 84, 155);
-    color: #ffcb06;
+    color: #ffcc0c;
+    margin-top: 50px;
     padding: 10px;
     font-size: 50px;
+}
+
+.introduction h2 {
+    font-size: 20px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.list p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: disc;
 }
 
 #starters_image_div {
@@ -18,10 +53,62 @@ h1{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    text-align: center;
 }
 
 #starters_image_div img {
-    padding:4px;
-    border:3px solid #2e549b;
+    border: 5px #2d539a solid;
+    padding: 5px;
 }
 
+.all_pokemon_container {
+    text-align: center;
+}
+
+.pokemon_images {
+    width: 150px;
+}
+
+#bulbasaur_container {
+    background-color: #8cc58e;
+    border: #faeca4 solid 2.5px;
+    border-radius: 15px;
+    text-align: left;
+    padding: 20px;
+}
+
+.pokemon_description {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+#charmander_container {
+    background-color: #f4b282;
+    border: #faeca4 solid 2.5px;
+    border-radius: 15px;
+    text-align: left;
+    padding: 20px;
+}
+
+.pokemon_names {
+    text-align: left;
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+#squirtle_container {
+    background-color: #8ec4ce;
+    border: #faeca4 solid 2.5px;
+    border-radius: 15px;
+    text-align: left;
+    size: 20px;
+    padding: 20px;
+}
+
+footer {
+    font-weight: 0;
+    padding: 36px;
+    font-size: 15px;
+    color: rgba(245, 245, 245, 0.701);
+}
